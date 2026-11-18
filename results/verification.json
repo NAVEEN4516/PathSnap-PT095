@@ -1,0 +1,118 @@
+{
+  "trip_checks": [
+    {
+      "trip": "00000000",
+      "observations": 2503,
+      "inference_seconds": 4.431,
+      "metrics": {
+        "top1": 0.9456652017578905,
+        "macro_f1": 0.8008521480059791,
+        "continuity": 0.9888089528377298,
+        "sequence_f1": 0.8184019370460048
+      }
+    },
+    {
+      "trip": "00000007",
+      "observations": 1354,
+      "inference_seconds": 0.391,
+      "metrics": {
+        "top1": 0.9239290989660266,
+        "macro_f1": 0.9622007695977103,
+        "continuity": 0.9992609016999261,
+        "sequence_f1": 0.8066666666666666
+      }
+    },
+    {
+      "trip": "00000009",
+      "observations": 1049,
+      "inference_seconds": 0.171,
+      "metrics": {
+        "top1": 0.877025738798856,
+        "macro_f1": 0.8287494852622588,
+        "continuity": 0.9312977099236641,
+        "sequence_f1": 0.8427370948379351
+      }
+    },
+    {
+      "trip": "00000040",
+      "observations": 2995,
+      "inference_seconds": 4.664,
+      "metrics": {
+        "top1": 0.9378964941569282,
+        "macro_f1": 0.9112364445326449,
+        "continuity": 0.9926519706078825,
+        "sequence_f1": 0.8559077809798271
+      }
+    },
+    {
+      "trip": "00000052",
+      "observations": 262,
+      "inference_seconds": 0.051,
+      "metrics": {
+        "top1": 0.9580152671755725,
+        "macro_f1": 0.8372738372738373,
+        "continuity": 0.9616858237547893,
+        "sequence_f1": 0.8666666666666667
+      }
+    },
+    {
+      "trip": "00000056",
+      "observations": 3958,
+      "inference_seconds": 0.549,
+      "metrics": {
+        "top1": 0.9181404749873674,
+        "macro_f1": 0.8724130965747826,
+        "continuity": 0.9557745766995198,
+        "sequence_f1": 0.8709175738724728
+      }
+    },
+    {
+      "trip": "00000065",
+      "observations": 768,
+      "inference_seconds": 0.151,
+      "metrics": {
+        "top1": 0.8645833333333334,
+        "macro_f1": 0.783642875881953,
+        "continuity": 0.9726205997392438,
+        "sequence_f1": 0.8333333333333334
+      }
+    },
+    {
+      "trip": "00000076",
+      "observations": 1486,
+      "inference_seconds": 0.412,
+      "metrics": {
+        "top1": 0.9071332436069987,
+        "macro_f1": 0.7434258704997362,
+        "continuity": 0.9481481481481482,
+        "sequence_f1": 0.8252299605781866
+      }
+    },
+    {
+      "trip": "00000077",
+      "observations": 3911,
+      "inference_seconds": 0.328,
+      "metrics": {
+        "top1": 0.7484019432370238,
+        "macro_f1": 0.7173173972686032,
+        "continuity": 0.9838874680306905,
+        "sequence_f1": 0.4414029084687767
+      }
+    },
+    {
+      "trip": "00000091",
+      "observations": 874,
+      "inference_seconds": 0.149,
+      "metrics": {
+        "top1": 0.897025171624714,
+        "macro_f1": 0.8249040005734755,
+        "continuity": 0.9644902634593356,
+        "sequence_f1": 0.7955056179775281
+      }
+    }
+  ],
+  "inference_without_route_passed": true,
+  "fastapi_http": "pending dependency installation",
+  "folium_map": "pending dependency installation",
+  "two_laptop": "pending physical devices"
+}

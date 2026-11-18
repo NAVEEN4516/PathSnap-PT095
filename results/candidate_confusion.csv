@@ -1,0 +1,7 @@
+model,TN,FP,FN,TP
+CART_baseline,93152,2793,2648,16367
+CART_search_best,93433,2512,2367,16648
+GaussianNB_baseline,92939,3006,2861,16154
+HistogramNB_baseline,93195,2750,2605,16410
+LDA_baseline,92789,3156,3011,16004
+Logistic_baseline,92816,3129,2984,16031
