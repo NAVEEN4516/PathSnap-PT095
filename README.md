@@ -66,7 +66,7 @@ GET /trips lists available trip IDs. POST /match/{trip_id} reconstructs one trip
 
 ## Verification status
 
-Model experiments and reference-free inference are locally executable using NumPy. Check results/verification.json for the completed checks. FastAPI, Uvicorn and Folium installation was blocked in the build environment, so HTTP integration, rendered Folium output and the physical two-laptop demonstration remain pending. The ten reserved evaluator trips were not supplied.
+Model experiments and reference-free inference are locally executable using NumPy. Check results/verification.json for the completed checks. GitHub Actions passed the live FastAPI/Uvicorn request, UI proxy, server-side scoring and Folium HTML checks on a synthetic trip. [Verification run](https://github.com/NAVEEN4516/PathSnap-PT095/actions/runs/44248380610). Physical two-laptop evaluation remains pending. The ten reserved evaluator trips were not supplied.
 
 The UI provides an offline geographic plot. visualize_map.py generates the required interactive Folium development map including GPS, candidate roads, reference and prediction. Reference layers are restricted to development analysis.
 
